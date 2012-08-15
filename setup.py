@@ -9,8 +9,8 @@ def read(fname):
     return open(os.path.join(os.path.dirname(__file__), fname)).read()
 
 setup(
-    name='calmath',
-    description='Does simple calender math operations on datetime objects.',
+    name='python-calmath',
+    description='Does simple calender math operations on date and datetime objects.',
     version=read('VERSION'),
     py_modules=['calmath'],
     author="Josh Hansen",
