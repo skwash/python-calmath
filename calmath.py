@@ -27,7 +27,7 @@ def first_of_week(date):
     date = date.replace(hour=0, minute=0, second=0, microsecond=0)
     weekday = date.isoweekday()
 
-    # If its Sunday then we're done.
+    # If it's Sunday then we're done.
     if weekday == 7:
         return date
 
