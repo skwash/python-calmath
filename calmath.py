@@ -12,7 +12,6 @@ def date_ranges(dt1, dt2):
     last = end_of_day(dt2)
 
     numdays = (last-first).days+1
-    print numdays
 
     dateList = [ first + timedelta(days=x) for x in range(0,numdays) ]
 
