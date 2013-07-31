@@ -1,5 +1,6 @@
-from distutils.core import setup
+from setuptools import setup
 import os
+import calmath
 
 # Utility function to read the README file.
 # Used for the long_description.  It's nice, because now 1) we have a top level
@@ -11,7 +12,7 @@ def read(fname):
 setup(
     name='calmath',
     description='Does simple calender math operations on date and datetime objects.',
-    version=read('VERSION'),
+    version=calmath.__version__,
     py_modules=['calmath'],
     author="Josh Hansen",
     author_email="josh@skwash.net",
