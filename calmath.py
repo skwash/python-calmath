@@ -1,3 +1,9 @@
+__author__ = "Josh Hansen <josh@skwash.net>"
+__date__ = "31 July 2013"
+__version__ = "0.0.3"
+__version_info__ = (0,0,3)
+__license__ = "BSD"
+
 from datetime import datetime, timedelta
 import math
 
